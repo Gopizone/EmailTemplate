@@ -6,6 +6,8 @@ import joblib
 from pathlib import Path 
 from PIL import Image
 import streamlit as st
+import nltk
+nltk.download('wordnet')
 
 #paths
 img_path = Path.joinpath(Path.cwd(),'images')
